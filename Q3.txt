@@ -1,0 +1,14 @@
+—¿Cómo es que se instalan paquetes con yarn?
+yarn add <paquete>: Instala el paquete y lo añade a las dependencias.
+yarn add <paquete> --dev: Instala el paquete solo como dependencia de desarrollo.
+yarn add <paquete>@<versión>: Instala una versión específica de un paquete.
+yarn install: Instala todas las dependencias listadas en el package.json o yarn.lock.
+
+—¿Cómo es que se borran paquetes con yarn?
+Eliminar la dependencia del directorio node_modules.
+Eliminarla del archivo package.json (en la sección correspondiente: "dependencies", "devDependencies" o "optionalDependencies").
+Actualizar yarn.lock automáticamente para reflejar la eliminación del paquete.
+
+—¿Hay algún equivalente en yarn que haga lo mismo que npm init?
+yarn init: Inicializa un nuevo proyecto y genera un archivo package.json.
+yarn init -y: Genera un package.json con valores predeterminados, omitiendo las preguntas.

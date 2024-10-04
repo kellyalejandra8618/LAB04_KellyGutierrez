@@ -1,0 +1,1 @@
+npm init es el comando utilizado para inicializar un proyecto en Node.js, configurando el archivo package.json para gestionar el proyecto, sus dependencias y scripts.
